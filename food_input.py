@@ -7,8 +7,11 @@ DELETE THIS COMMENT AFTER IMPLEMENTING THE FUNCTIONS.
 
 import cv2
 import pytesseract
+import re
 from bs4 import BeautifulSoup
 import requests
+from datetime import date as dt
+from collections import defaultdict
 
 def extract_text_from_receipt(image_path):
     """
@@ -20,6 +23,18 @@ def extract_text_from_receipt(image_path):
     Returns:
         str: Extracted text from the receipt, or None if extraction fails
     """
+
+    try:
+        img = cv2.imread(image_path)
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        gray = cv2.medianBlur(gray, 3)
+        
+        text = pytesseract.image_to_string(gray)
+        return text.strip()
+    except Exception as e:
+        print(f"OCR error: {e}")
+        return None
+    
     # TODO: Implement OCR text extraction
     # Use OpenCV, Tesseract, or other OCR library
     pass
@@ -35,9 +50,18 @@ def parse_receipt_items(receipt_text):
         list[dict]: List of food items with quantities
             [{'name': 'apple', 'quantity': 2, 'unit': 'each'}, ...]
     """
+
+    items = []
+    lines = receipt_text.splitlines()
+    for line in lines:
+        match = re.match(r"([A-Za-z ]+)\s+([\d\.]+)", line)
+        if match:
+            name = match.group(1).strip().lower()
+            quantity = float(match.group(2))
+            items.append({"name": name, "quantity": quantity, "unit": "each"})
+    return items
     # TODO: Implement text parsing to identify food items
     # Handle different receipt formats and extract item names/quantities
-    pass
 
 def get_nutrition_from_web(food_name):
     """
@@ -58,9 +82,40 @@ def get_nutrition_from_web(food_name):
             }
             Returns None if nutrition not found
     """
+
+    query = food_name.replace(" ", "+")
+    url = f"https://www.nutritionvalue.org/search.php?food_query={query}"
+
+    res = requests.get(url)
+    if res.status_code != 200:
+        return None
+    
+    soup = BeautifulSoup(res.text, "html.parser")
+    first_link = soup.select_one("a[href*='/foods/']")
+    if not first_link:
+        return None
+
+    food_url = "https://www.nutritionvalue.org" + first_link["href"]
+    page = requests.get(food_url)
+    soup = BeautifulSoup(page.text, "html.parser")
+
+    def safe_get(label):
+        cell = soup.find("td", string=lambda s: s and label in s)
+        if cell and cell.find_next_sibling("td"):
+            return float(cell.find_next_sibling("td").text.split()[0])
+        return 0.0
+
+    return {
+        "serving_size_value": 1.0,
+        "serving_size_unit": food_name,
+        "calories_per_serving": safe_get("Calories"),
+        "protein_g_per_serving": safe_get("Protein"),
+        "carbs_g_per_serving": safe_get("Carbohydrate"),
+        "fat_g_per_serving": safe_get("Total Fat")
+    }
+    
     # TODO: Implement web scraping from nutrition database
     # Use BeautifulSoup to scrape from USDA, MyFitnessPal, or similar site
-    pass
 
 def process_receipt_image(image_path):
     """
@@ -87,6 +142,22 @@ def process_receipt_image(image_path):
             ]
             Returns empty list if processing fails
     """
+
+    text = extract_text_from_receipt(image_path)
+    if not text:
+        return []
+    
+    items = parse_receipt_items(text)
+    if not items:
+        return []
+
+    results = []
+    for item in items:
+        nutrition = get_nutrition_from_web(item["name"])
+        if nutrition:
+            results.append({**item, **nutrition})
+    
+    return results
     # TODO: Implement complete pipeline
     # 1. Extract text from image
     # 2. Parse food items from text
@@ -105,9 +176,26 @@ def get_purdue_menu_nutrition(menu_item_name):
         dict: Nutrition information per serving (same format as get_nutrition_from_web)
             Returns None if item not found
     """
+
+    base = "https://api.hfs.purdue.edu/menus/v2/items/"
+    item_name = menu_item_name.replace(" ", "%20")
+    url = base + item_name
+
+    res = requests.get(url)
+    if res.status_code != 200:
+        return None
+
+    data = res.json()
+    return {
+        "serving_size_value": 1.0,
+        "serving_size_unit": "serving",
+        "calories_per_serving": data.get("Calories", 0),
+        "protein_g_per_serving": data.get("Protein", 0),
+        "carbs_g_per_serving": data.get("Carbohydrates", 0),
+        "fat_g_per_serving": data.get("TotalFat", 0)
+    }
     # TODO: Implement Purdue dining hall menu scraping
     # Scrape from Purdue's dining website for specific menu items
-    pass
 
 def scrape_purdue_daily_menu(date=None):
     """
@@ -131,9 +219,31 @@ def scrape_purdue_daily_menu(date=None):
                 ...
             ]
     """
+
+    if date is None:
+        date = dt.today().isoformat()
+
+    base = "https://api.hfs.purdue.edu/menus/v2/locations"
+    halls = requests.get(base).json()["Location"]
+
+    all_items = []
+
+    for hall in halls:
+        loc = hall["Location"]
+        menu_url = f"https://api.hfs.purdue.edu/menus/v2/locations/{loc}/{date}"
+        data = requests.get(menu_url).json()
+
+        for meal in data.get("Meals", []):
+            for station in meal.get("Stations", []):
+                for item in station.get("Items", []):
+                    name = item["Name"]
+                    all_items.append({
+                        "name": name,
+                        **(get_purdue_menu_nutrition(name) or {})
+                    })
+    return all_items
     # TODO: Implement Purdue menu scraping
     # Scrape daily menu and get nutrition for all available items
-    pass
 
 # Example usage and expected return values:
 if __name__ == "__main__":
