@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { User, Lock, Weight, Ruler, Activity, AlertCircle, CheckCircle } from 'lucide-react';
+import { User, Lock, Scale, Ruler, Activity, AlertCircle, CheckCircle } from 'lucide-react';
 
 const Register = ({ onLogin }) => {
   const [formData, setFormData] = useState({
     username: '',
     password: '',
-    weight_kg: '',
-    height_cm: '',
-    gender: '',
+    weight_lbs: '',
+    height_inches: '',
+    sex: '',
     activity_level: ''
   });
   const [error, setError] = useState('');
@@ -28,6 +28,19 @@ const Register = ({ onLogin }) => {
     setLoading(true);
     setError('');
     setSuccess('');
+
+    // Client-side validation
+    if (!formData.sex) {
+      setError('Please select your sex');
+      setLoading(false);
+      return;
+    }
+    
+    if (!formData.activity_level) {
+      setError('Please select your activity level');
+      setLoading(false);
+      return;
+    }
 
     try {
       const response = await axios.post('/register', formData);
@@ -75,6 +88,7 @@ const Register = ({ onLogin }) => {
             Create Account
           </h1>
           <p className="text-muted">Start tracking your nutrition today</p>
+          <p className="text-muted" style={{ fontSize: '0.9rem' }}>* Required fields</p>
         </div>
 
         {error && (
@@ -145,16 +159,16 @@ const Register = ({ onLogin }) => {
           <div className="grid grid-2">
             <div className="form-group">
               <label className="form-label">
-                <Weight size={18} style={{ marginRight: '8px', display: 'inline' }} />
-                Weight (kg)
+                <Scale size={18} style={{ marginRight: '8px', display: 'inline' }} />
+                Weight (lbs)
               </label>
               <input
                 type="number"
-                name="weight_kg"
-                value={formData.weight_kg}
+                name="weight_lbs"
+                value={formData.weight_lbs}
                 onChange={handleChange}
                 className="form-input"
-                placeholder="70"
+                placeholder="150"
                 step="0.1"
               />
             </div>
@@ -162,15 +176,15 @@ const Register = ({ onLogin }) => {
             <div className="form-group">
               <label className="form-label">
                 <Ruler size={18} style={{ marginRight: '8px', display: 'inline' }} />
-                Height (cm)
+                Height (inches)
               </label>
               <input
                 type="number"
-                name="height_cm"
-                value={formData.height_cm}
+                name="height_inches"
+                value={formData.height_inches}
                 onChange={handleChange}
                 className="form-input"
-                placeholder="175"
+                placeholder="70"
                 step="0.1"
               />
             </div>
@@ -178,30 +192,31 @@ const Register = ({ onLogin }) => {
 
           <div className="grid grid-2">
             <div className="form-group">
-              <label className="form-label">Gender</label>
+              <label className="form-label">Sex *</label>
               <select
-                name="gender"
-                value={formData.gender}
+                name="sex"
+                value={formData.sex}
                 onChange={handleChange}
                 className="form-select"
+                required
               >
-                <option value="">Select gender</option>
+                <option value="">Select sex</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
-                <option value="other">Other</option>
               </select>
             </div>
 
             <div className="form-group">
               <label className="form-label">
                 <Activity size={18} style={{ marginRight: '8px', display: 'inline' }} />
-                Activity Level
+                Activity Level *
               </label>
               <select
                 name="activity_level"
                 value={formData.activity_level}
                 onChange={handleChange}
                 className="form-select"
+                required
               >
                 <option value="">Select activity level</option>
                 <option value="sedentary">Sedentary</option>

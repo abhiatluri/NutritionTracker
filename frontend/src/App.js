@@ -9,7 +9,7 @@ import Goals from './components/Goals';
 import Navbar from './components/Navbar';
 
 // Configure axios base URL
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'http://localhost:5001/api';
 
 function App() {
   const [user, setUser] = useState(null);

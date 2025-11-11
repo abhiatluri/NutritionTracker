@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Calendar, Target, TrendingUp, AlertTriangle } from 'lucide-react';
+import { Calendar, Target, TrendingUp, AlertTriangle, CheckCircle } from 'lucide-react';
 import axios from 'axios';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -38,17 +38,23 @@ const Dashboard = ({ user }) => {
   };
 
   const calculateMacros = () => {
-    const totalCalories = nutrition.calories;
-    if (totalCalories === 0) return [0, 0, 0];
-    
-    const proteinCal = nutrition.protein_g * 4;
-    const carbsCal = nutrition.carbs_g * 4;
-    const fatCal = nutrition.fat_g * 9;
-    
+    const reportedCalories = Number(nutrition.calories) || 0;
+    const proteinCal = (Number(nutrition.protein_g) || 0) * 4;
+    const carbsCal = (Number(nutrition.carbs_g) || 0) * 4;
+    const fatCal = (Number(nutrition.fat_g) || 0) * 9;
+
+    const macroCalories = proteinCal + carbsCal + fatCal;
+    if (macroCalories === 0) return [0, 0, 0];
+
+    // Use macro calorie sum as denominator when reported calories are missing or inconsistent
+    const denominator = (reportedCalories > 0 && reportedCalories >= macroCalories * 0.9)
+      ? reportedCalories
+      : macroCalories;
+
     return [
-      Math.round((proteinCal / totalCalories) * 100),
-      Math.round((carbsCal / totalCalories) * 100),
-      Math.round((fatCal / totalCalories) * 100)
+      Math.round((proteinCal / denominator) * 100),
+      Math.round((carbsCal / denominator) * 100),
+      Math.round((fatCal / denominator) * 100)
     ];
   };
 
@@ -57,12 +63,14 @@ const Dashboard = ({ user }) => {
     datasets: [{
       data: calculateMacros(),
       backgroundColor: ['#667eea', '#764ba2', '#f093fb'],
-      borderWidth: 0
+      borderWidth: 0,
+      label: 'Macro Distribution'
     }]
   };
 
   const macroOptions = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         position: 'bottom',
@@ -70,6 +78,16 @@ const Dashboard = ({ user }) => {
           padding: 20,
           font: {
             size: 14
+          },
+          usePointStyle: true
+        }
+      },
+      tooltip: {
+        callbacks: {
+          label: function(context) {
+            const label = context.label || '';
+            const value = context.parsed || 0;
+            return `${label}: ${value}%`;
           }
         }
       }
@@ -106,10 +124,14 @@ const Dashboard = ({ user }) => {
     <div className="container">
       <div className="flex flex-between mb-4">
         <h1 style={{ 
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          margin: 0
+          color: '#ffffff',
+          backgroundColor: '#4c5fd5',
+          margin: 0,
+          fontWeight: 'bold',
+          fontSize: '2rem',
+          padding: '12px 24px',
+          borderRadius: '12px',
+          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
         }}>
           Dashboard
         </h1>

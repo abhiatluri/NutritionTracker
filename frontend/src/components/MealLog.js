@@ -9,6 +9,15 @@ const MealLog = ({ user }) => {
   const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
   const [searchTerm, setSearchTerm] = useState('');
 
+  // Receipt upload & parsed foods
+  const [receiptFile, setReceiptFile] = useState(null);
+  const [parsedFoods, setParsedFoods] = useState([]);
+  const [uploadingReceipt, setUploadingReceipt] = useState(false);
+
+  // Purdue search quick lookup
+  const [purdueQuery, setPurdueQuery] = useState('');
+  const [purdueResult, setPurdueResult] = useState(null);
+
   const [newMeal, setNewMeal] = useState({
     food_name: '',
     quantity_servings: 1,
@@ -82,6 +91,94 @@ const MealLog = ({ user }) => {
     }
   };
 
+  const handleReceiptUpload = async () => {
+    if (!receiptFile) return;
+    setUploadingReceipt(true);
+    try {
+      const form = new FormData();
+      form.append('file', receiptFile);
+      const resp = await axios.post('/receipt/process', form, {
+        headers: { 'Content-Type': 'multipart/form-data' }
+      });
+      if (resp.data.success) {
+        setParsedFoods(resp.data.foods || []);
+      }
+    } catch (err) {
+      console.error('Error uploading receipt:', err);
+    } finally {
+      setUploadingReceipt(false);
+    }
+  };
+
+  const addParsedFoodAsMeal = async (food) => {
+    try {
+      const payload = {
+        user_id: user.id,
+        food_name: food.name || 'Receipt Item',
+        quantity_servings: food.quantity || 1,
+        meal_type: 'snack',
+        source: 'receipt'
+      };
+      const response = await axios.post('/meals', payload);
+      if (response.data.success) {
+        setMeals([...meals, { id: response.data.meal_id, ...payload }]);
+      }
+    } catch (e) {
+      console.error('Error adding parsed food:', e);
+    }
+  };
+
+  const handlePurdueLookup = async () => {
+    if (!purdueQuery) return;
+    try {
+      const resp = await axios.get(`/purdue/nutrition/${encodeURIComponent(purdueQuery)}`);
+      if (resp.data.success) {
+        setPurdueResult(resp.data.nutrition);
+      } else {
+        setPurdueResult(null);
+      }
+    } catch (e) {
+      console.error('Purdue lookup error:', e);
+      setPurdueResult(null);
+    }
+  };
+
+  const addPurdueAsMeal = async () => {
+    if (!purdueResult) return;
+    try {
+      // 1) Ensure the food exists in DB (add or reuse)
+      const foodPayload = {
+        name: purdueQuery,
+        serving_size_value: 1,
+        serving_size_unit: 'serving',
+        calories_per_serving: purdueResult.calories_per_serving,
+        protein_g_per_serving: purdueResult.protein_g_per_serving,
+        carbs_g_per_serving: purdueResult.carbs_g_per_serving,
+        fat_g_per_serving: purdueResult.fat_g_per_serving
+      };
+      try {
+        await axios.post('/foods', foodPayload);
+      } catch (e) {
+        // If duplicate, backend may error; continue to meal add
+      }
+
+      // 2) Add meal using that food name
+      const mealPayload = {
+        user_id: user.id,
+        food_name: purdueQuery,
+        quantity_servings: 1,
+        meal_type: 'lunch',
+        source: 'purdue_menu'
+      };
+      const response = await axios.post('/meals', mealPayload);
+      if (response.data.success) {
+        setMeals([...meals, { id: response.data.meal_id, ...mealPayload }]);
+      }
+    } catch (e) {
+      console.error('Error adding purdue item:', e);
+    }
+  };
+
   const filteredMeals = meals.filter(meal =>
     meal.food_name.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -120,10 +217,14 @@ const MealLog = ({ user }) => {
     <div className="container">
       <div className="flex flex-between mb-4">
         <h1 style={{ 
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          margin: 0
+          color: '#ffffff',
+          backgroundColor: '#28a745',
+          margin: 0,
+          fontWeight: 'bold',
+          fontSize: '2rem',
+          padding: '12px 24px',
+          borderRadius: '12px',
+          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
         }}>
           Meal Log
         </h1>
@@ -179,17 +280,88 @@ const MealLog = ({ user }) => {
           </div>
           
           <div className="flex gap-4">
-            <button className="btn btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            {/* Receipt upload */}
+            <label className="btn btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}>
               <Camera size={18} />
-              Receipt
+              {uploadingReceipt ? 'Uploading...' : 'Receipt'}
+              <input type="file" accept="image/*" style={{ display: 'none' }} onChange={(e) => setReceiptFile(e.target.files?.[0] || null)} />
+            </label>
+            <button className="btn btn-secondary" onClick={handleReceiptUpload} disabled={!receiptFile || uploadingReceipt}>
+              Process
             </button>
-            <button className="btn btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <Utensils size={18} />
-              Purdue Menu
-            </button>
+
+            {/* Purdue quick lookup */}
+            <div className="flex" style={{ gap: '8px' }}>
+              <input
+                type="text"
+                placeholder="Purdue item..."
+                value={purdueQuery}
+                onChange={(e) => setPurdueQuery(e.target.value)}
+                style={{
+                  padding: '8px 12px',
+                  border: '2px solid #e1e5e9',
+                  borderRadius: '8px',
+                  fontSize: '14px'
+                }}
+              />
+              <button className="btn btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }} onClick={handlePurdueLookup}>
+                <Utensils size={18} />
+                Lookup
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
+      {(parsedFoods.length > 0) && (
+        <div className="card mb-4">
+          <h3 style={{ marginBottom: '12px' }}>Receipt Items</h3>
+          {parsedFoods.map((f, idx) => (
+            <div key={idx} className="flex flex-between" style={{ padding: '8px 0' }}>
+              <div>
+                <div style={{ fontWeight: 600 }}>{f.name || 'Unknown Item'}</div>
+                <div className="text-muted" style={{ fontSize: '0.9rem' }}>Qty: {f.quantity || 1} {f.unit || ''}</div>
+              </div>
+              <button className="btn" onClick={() => addParsedFoodAsMeal(f)}>Add</button>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {(parsedFoods.length === 0 && receiptFile && !uploadingReceipt) && (
+        <div className="card mb-4">
+          <div style={{ 
+            color: '#856404', 
+            backgroundColor: '#fff3cd', 
+            padding: '12px', 
+            borderRadius: '8px',
+            border: '1px solid #ffc107'
+          }}>
+            No items detected from receipt. This could be due to:
+            <ul style={{ marginTop: '8px', paddingLeft: '20px' }}>
+              <li>Poor image quality or unclear text</li>
+              <li>Receipt format not recognized</li>
+              <li>OCR processing error</li>
+            </ul>
+            Try uploading a clearer image or manually add items.
+          </div>
+        </div>
+      )}
+
+      {purdueResult && (
+        <div className="card mb-4">
+          <h3 style={{ marginBottom: '12px' }}>Purdue Nutrition</h3>
+          <div className="flex flex-between">
+            <div>
+              <div style={{ fontWeight: 600 }}>{purdueQuery}</div>
+              <div className="text-muted" style={{ fontSize: '0.9rem' }}>
+                {purdueResult.calories_per_serving} cal • {purdueResult.protein_g_per_serving}g P • {purdueResult.carbs_g_per_serving}g C • {purdueResult.fat_g_per_serving}g F
+              </div>
+            </div>
+            <button className="btn" onClick={addPurdueAsMeal}>Add</button>
+          </div>
+        </div>
+      )}
 
       {/* Add Meal Form */}
       {showAddForm && (

@@ -2,8 +2,8 @@ import sqlite3
 import hashlib
 from datetime import datetime
 
-# Database connection
-conn = sqlite3.connect('nutrition_tracker.db')
+# Database connection with threading support
+conn = sqlite3.connect('nutrition_tracker.db', check_same_thread=False)
 cursor = conn.cursor()
 
 def init_database():
@@ -15,10 +15,10 @@ def init_database():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT UNIQUE NOT NULL,
             password_hash TEXT NOT NULL,
-            weight_kg REAL,
-            gender TEXT CHECK(gender IN ('male', 'female', 'other')),
+            weight_lbs REAL,
+            sex TEXT CHECK(sex IN ('male', 'female')),
             activity_level TEXT CHECK(activity_level IN ('sedentary', 'light', 'moderate', 'active', 'very_active')),
-            height_cm REAL,
+            height_inches REAL,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     ''')
@@ -46,7 +46,7 @@ def init_database():
             food_id INTEGER NOT NULL,
             quantity_servings REAL NOT NULL,  -- number of servings consumed
             meal_type TEXT CHECK(meal_type IN ('breakfast', 'lunch', 'dinner', 'snack')),
-            source TEXT CHECK(source IN ('purdue_menu', 'receipt')),
+            source TEXT CHECK(source IN ('purdue_menu', 'receipt', 'manual')),
             entry_date DATE NOT NULL,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             FOREIGN KEY (user_id) REFERENCES users(id),
@@ -81,7 +81,7 @@ def verify_password(password, stored_hash):
     """Verify password against stored hash"""
     return hash_password(password) == stored_hash
 
-def create_user(username, password, weight_kg=None, gender=None, activity_level=None, height_cm=None):
+def create_user(username, password, weight_lbs=None, sex=None, activity_level=None, height_inches=None):
     """Create a new user. Returns True if successful, False if username already exists."""
     # Check if username already exists
     cursor.execute('SELECT id FROM users WHERE username = ?', (username,))
@@ -91,9 +91,9 @@ def create_user(username, password, weight_kg=None, gender=None, activity_level=
     password_hash = hash_password(password)
     
     cursor.execute('''
-        INSERT INTO users (username, password_hash, weight_kg, gender, activity_level, height_cm)
+        INSERT INTO users (username, password_hash, weight_lbs, sex, activity_level, height_inches)
         VALUES (?, ?, ?, ?, ?, ?)
-    ''', (username, password_hash, weight_kg, gender, activity_level, height_cm))
+    ''', (username, password_hash, weight_lbs, sex, activity_level, height_inches))
     
     conn.commit()
     return True

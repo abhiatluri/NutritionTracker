@@ -63,10 +63,10 @@ def register():
         success = DB.create_user(
             username=data['username'],
             password=data['password'],
-            weight_kg=data.get('weight_kg'),
-            gender=data.get('gender'),
+            weight_lbs=data.get('weight_lbs'),
+            sex=data.get('sex'),
             activity_level=data.get('activity_level'),
-            height_cm=data.get('height_cm')
+            height_inches=data.get('height_inches')
         )
         
         if success:
@@ -189,23 +189,34 @@ def add_food():
 
 @app.route('/api/receipt/process', methods=['POST'])
 def process_receipt():
-    """Process a receipt image and extract nutrition data"""
+    """Process a receipt image upload and extract nutrition data"""
     try:
-        # This would typically handle file upload
-        # For now, expect image path in request
-        data = request.get_json()
-        
-        if 'image_path' not in data:
-            return jsonify({'error': 'image_path required'}), 400
-        
-        # Process receipt (stub for now)
-        result = receipt.process_receipt_image(data['image_path'])
-        
+        # Support both multipart form-data file uploads and JSON { image_path }
+        if 'file' in request.files:
+            file = request.files['file']
+            if file.filename == '':
+                return jsonify({'error': 'No file selected'}), 400
+
+            # Save to a temp file
+            import os, uuid
+            tmp_dir = 'uploads'
+            os.makedirs(tmp_dir, exist_ok=True)
+            tmp_path = os.path.join(tmp_dir, f"receipt_{uuid.uuid4().hex}.jpg")
+            file.save(tmp_path)
+            image_path = tmp_path
+        else:
+            data = request.get_json(silent=True) or {}
+            image_path = data.get('image_path')
+            if not image_path:
+                return jsonify({'error': 'Upload a file via form-data with key "file" or provide image_path in JSON'}), 400
+
+        result = receipt.process_receipt_image(image_path)
+
         return jsonify({
             'success': True,
             'foods': result
         }), 200
-        
+
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
@@ -283,15 +294,15 @@ def calculate_tdee():
     try:
         data = request.get_json()
         
-        required_fields = ['weight_kg', 'height_cm', 'age', 'gender', 'activity_level']
+        required_fields = ['weight_lbs', 'height_inches', 'age', 'sex', 'activity_level']
         if not all(field in data for field in required_fields):
             return jsonify({'error': 'All user metrics required'}), 400
         
         tdee = calc.calculateTDEE(
-            data['weight_kg'],
-            data['height_cm'],
+            data['weight_lbs'],
+            data['height_inches'],
             data['age'],
-            data['gender'],
+            data['sex'],
             data['activity_level']
         )
         
@@ -368,5 +379,5 @@ if __name__ == '__main__':
     print("  POST /api/goals/<user_id> - Set user goals")
     print("  GET  /api/health - Health check")
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)
 

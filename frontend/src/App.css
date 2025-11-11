@@ -1,0 +1,29 @@
+/* Additional styles for the app */
+.App {
+  min-height: 100vh;
+}
+
+/* Import missing CheckCircle icon style */
+.text-success {
+  color: #28a745;
+}
+
+/* Fix for missing CheckCircle import in Dashboard */
+.CheckCircle {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #28a745;
+  border-radius: 50%;
+  position: relative;
+}
+
+.CheckCircle::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}

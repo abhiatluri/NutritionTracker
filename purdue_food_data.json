@@ -1,0 +1,163 @@
+{
+  "scrape_timestamp": "2025-10-09 01:32:06",
+  "total_dining_halls": 13,
+  "total_food_items": 13,
+  "results": [
+    {
+      "dining_hall": "Ford Dining Court",
+      "url": "https://dining.purdue.edu/menus/ford-dining-court",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "Ford Dining Court",
+          "url": "https://dining.purdue.edu/menus/ford-dining-court"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "Windsor Dining Court",
+      "url": "https://dining.purdue.edu/menus/windsor-dining-court",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "Windsor Dining Court",
+          "url": "https://dining.purdue.edu/menus/windsor-dining-court"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "Earhart Dining Court",
+      "url": "https://dining.purdue.edu/menus/earhart-dining-court",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "Earhart Dining Court",
+          "url": "https://dining.purdue.edu/menus/earhart-dining-court"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "Hillenbrand Dining Court",
+      "url": "https://dining.purdue.edu/menus/hillenbrand-dining-court",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "Hillenbrand Dining Court",
+          "url": "https://dining.purdue.edu/menus/hillenbrand-dining-court"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "Wiley Dining Court",
+      "url": "https://dining.purdue.edu/menus/wiley-dining-court",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "Wiley Dining Court",
+          "url": "https://dining.purdue.edu/menus/wiley-dining-court"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "The Gathering Place",
+      "url": "https://dining.purdue.edu/menus/the-gathering-place",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "The Gathering Place",
+          "url": "https://dining.purdue.edu/menus/the-gathering-place"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "The Market",
+      "url": "https://dining.purdue.edu/menus/the-market",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "The Market",
+          "url": "https://dining.purdue.edu/menus/the-market"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "Pete's Za",
+      "url": "https://dining.purdue.edu/menus/petes-za",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "Pete's Za",
+          "url": "https://dining.purdue.edu/menus/petes-za"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "The C-Store",
+      "url": "https://dining.purdue.edu/menus/the-c-store",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "The C-Store",
+          "url": "https://dining.purdue.edu/menus/the-c-store"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "The Den by Den Popov",
+      "url": "https://dining.purdue.edu/menus/the-den-by-den-popov",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "The Den by Den Popov",
+          "url": "https://dining.purdue.edu/menus/the-den-by-den-popov"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "The Union Club Hotel",
+      "url": "https://dining.purdue.edu/menus/the-union-club-hotel",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "The Union Club Hotel",
+          "url": "https://dining.purdue.edu/menus/the-union-club-hotel"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "The Cary Knight Spot",
+      "url": "https://dining.purdue.edu/menus/the-cary-knight-spot",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "The Cary Knight Spot",
+          "url": "https://dining.purdue.edu/menus/the-cary-knight-spot"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "dining_hall": "The Boiler Bistro",
+      "url": "https://dining.purdue.edu/menus/the-boiler-bistro",
+      "food_items": [
+        {
+          "name": "We apologize for any inconvenience.",
+          "dining_hall": "The Boiler Bistro",
+          "url": "https://dining.purdue.edu/menus/the-boiler-bistro"
+        }
+      ],
+      "status": "success"
+    }
+  ]
+}

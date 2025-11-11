@@ -1,0 +1,5067 @@
+{
+  "scrape_timestamp": "2025-10-09 02:28:17",
+  "date": "10-09-2025",
+  "total_items": 506,
+  "menu_items": [
+    {
+      "name": "Scrambled Eggs",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 155,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Bacon",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 20,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Mini Potato Pancakes",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 39,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Sour Cream",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 30,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Mild Salsa",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 20,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Hard Cooked Eggs",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 62,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "White Panini Bread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Multi Grain Bread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 147,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Fried Egg",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 84,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Bacon",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 20,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Whipped Cream Cheese",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Strawberry Cream Cheese",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 107,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Sliced Tomatoes",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 9,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Avocado Spread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 110,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 10
+    },
+    {
+      "name": "Strawberry Jelly",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Grape Jelly",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fresh Blueberries",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 31,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Roasted Almonds",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 172,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 5,
+      "fat_g_per_serving": 15
+    },
+    {
+      "name": "Fresh Sliced Strawberries",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 31,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Bananas",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 66,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Honey",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 60,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Everything Bagel Seasoning",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 5,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Cholula Hot Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 0,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Blueberry Cream Cheese Scone",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 227,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 42,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Vanilla Yogurt",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 20,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Strawberry Yogurt",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 20,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Cantaloupe Slices",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 39,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mandarin Oranges",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Dark Chocolate Sea Salt Seed'nola",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Gluten Free Granola",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 16,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Whipped Cream Cheese",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Whipped Butter",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 101,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Whipped Margarine",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 101,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Crunchy Peanut Butter",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 92,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Creamy Peanut Butter",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 94,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Grape Jelly",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Strawberry Jelly",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "White Bread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 81,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Wheat Bread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 85,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 16,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "English Muffin",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Plain Bagel",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 9,
+      "carbs_g_per_serving": 51,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Blueberry Bagel",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 10,
+      "carbs_g_per_serving": 50,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Creamy Grits",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 69,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Bacon Bits",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 60,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Shredded Sharp Cheddar Cheese",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 110,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Chopped Green Onions",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 3,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Whipped Butter",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 101,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Diced Jalapeno Peppers",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 9,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pancake Syrup",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 35,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pancakes",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 66,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Sugar Free Maple Pancake Syrup",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 15,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pancake Syrup",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 35,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Vegetarian Sausage Patty",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 70,
+      "protein_g_per_serving": 9,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Rice Chex Cereal",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 101,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Udi's Plain GF Bagel",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 38,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Hamburger",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 202,
+      "protein_g_per_serving": 14,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 16
+    },
+    {
+      "name": "Pretzel Bites",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 26,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 5,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Beer Cheese Dip",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 119,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Hamburger Bun",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Tempura Chicken",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 150,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Korean Fried Tofu Cubes",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 64,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Stir Fry Peppers and Onions",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 55,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Vegan General Tso Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 30,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Kogi Sweet Garlic Teriyaki Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Korean Stir Fry Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 165,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Zesty Orange Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 17363,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4465,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Madras Chicken Curry",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 14,
+      "carbs_g_per_serving": 5,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Vegetable Tikkis",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 70,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Spicy Cilantro Chutney",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 542,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 54
+    },
+    {
+      "name": "Basmati Rice",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Indian Rice Stir Fry",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 299,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 54,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Mint Chocolate Chip Cookie",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 287,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 17
+    },
+    {
+      "name": "Peanut Butter Scotcheroo",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 290,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 45,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Carrot Cake",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 274,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 33,
+      "fat_g_per_serving": 14
+    },
+    {
+      "name": "Cantaloupe Slices",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 39,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mandarin Oranges",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Dark Chocolate Sea Salt Seed'nola",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "GF Hot Dog Bun",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 210,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 35,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Super Beef Hot Dog",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 330,
+      "protein_g_per_serving": 13,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 30
+    },
+    {
+      "name": "Hot Dog Chili Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 70,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Cheese Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 46,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Sauerkraut",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 18,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Sweet Pickle Relish",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 38,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Brat Bun",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 170,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 34,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Pretzel Bites",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 26,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 5,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Tempura Chicken",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 150,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Korean Fried Tofu Cubes",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 64,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Stir Fry Peppers and Onions",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 55,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Vegan General Tso Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 30,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Zesty Orange Sauce",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 17363,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4465,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Madras Chicken Curry",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 14,
+      "carbs_g_per_serving": 5,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Vegetable Tikkis",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 70,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Spicy Cilantro Chutney",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 542,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 54
+    },
+    {
+      "name": "Basmati Rice",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Indian Rice Stir Fry",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 299,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 54,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Mint Chocolate Chip Cookie",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 287,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 17
+    },
+    {
+      "name": "Peanut Butter Scotcheroo",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 290,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 45,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Carrot Cake",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 274,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 33,
+      "fat_g_per_serving": 14
+    },
+    {
+      "name": "Cantaloupe Slices",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 39,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mandarin Oranges",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Dark Chocolate Sea Salt Seed'nola",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "GF Hot Dog Bun",
+      "dining_hall": "Earhart",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 210,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 35,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Scrambled Eggs",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 155,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Hard Cooked Eggs",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 62,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Hash Brown",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 88,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "American Cheese",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 70,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Jalapeno Mont Jack Cheese Slices",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 71,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Biscuits",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 259,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 30,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "English Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Chicken Sausage Patty",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 10,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Pancakes",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 66,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Oatmeal",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 80,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Pumpkin Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 291,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 46,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Mango Chunks",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fruit Cocktail",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Udi's Plain GF Bagel",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 38,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "GF Double Chocolate Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 280,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 40,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "BoilerQ BBQ Chicken Drumstick",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 82,
+      "protein_g_per_serving": 12,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Creamy Coleslaw",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 89,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Monterey Vegetables",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Parmesan Red Potatoes",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 116,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Buttermilk Cornbread",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 124,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 20,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Whipped Butter",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 101,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Ken's Cannonball BBQ Sauce",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Hickory Smoke BBQ Sauce",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Honey BBQ Wing Sauce",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 155,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 41,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Beef Stroganoff",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 297,
+      "protein_g_per_serving": 18,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 20
+    },
+    {
+      "name": "Egg Noodles",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 993,
+      "protein_g_per_serving": 35,
+      "carbs_g_per_serving": 177,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Peas",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 62,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Tomato Tart",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 98,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Roasted Garlic Butter Carrots",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 55,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Thai Chicken Basil Stir Fry",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 371,
+      "protein_g_per_serving": 37,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Vegan Basil Tofu",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 175,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Green Bean Stir Fry",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 115,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Jasmine Rice",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 102,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Meat Lover's Pizza",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 234,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Garlic Cheese Pizza",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 125,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Kettle Potato Chips",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 152,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Strawberry Cookie",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 159,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Smore's Revenge",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 286,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 18
+    },
+    {
+      "name": "Coconut Layer Cake",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 299,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 43,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Vegan Basil Tofu",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 175,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Jasmine Rice",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 102,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Green Bean Stir Fry",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 115,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Amish Potato Salad",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 167,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Mango Chunks",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fruit Cocktail",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "GF Cauliflower Pizza Crust",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 481,
+      "protein_g_per_serving": 12,
+      "carbs_g_per_serving": 81,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "GF Double Chocolate Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 280,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 40,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "BoilerQ BBQ Chicken Drumstick",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 82,
+      "protein_g_per_serving": 12,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Creamy Coleslaw",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 89,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Buttermilk Cornbread",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 124,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 20,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Whipped Butter",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 101,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Parmesan Red Potatoes",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 116,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Monterey Vegetables",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Ken's Cannonball BBQ Sauce",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Hickory Smoke BBQ Sauce",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Honey BBQ Wing Sauce",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 155,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 41,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Swedish Meatballs",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 411,
+      "protein_g_per_serving": 20,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 30
+    },
+    {
+      "name": "Egg Noodles",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 993,
+      "protein_g_per_serving": 35,
+      "carbs_g_per_serving": 177,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Peas",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 62,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Tomato Tart",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 98,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Roasted Garlic Butter Carrots",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 55,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Thai Chicken Basil Stir Fry",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 371,
+      "protein_g_per_serving": 37,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Vegan Basil Tofu",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 175,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Green Bean Stir Fry",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 115,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Jasmine Rice",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 102,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Meat Lover's Pizza",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 234,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Garlic Cheese Pizza",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 125,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Kettle Potato Chips",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 152,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Strawberry Cookie",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 159,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Smore's Revenge",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 286,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 18
+    },
+    {
+      "name": "Coconut Layer Cake",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 299,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 43,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Vegan Basil Tofu",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 175,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Jasmine Rice",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 102,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Green Bean Stir Fry",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 115,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Amish Potato Salad",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 167,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Kiwi",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 46,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mango Chunks",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fruit Cocktail",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "GF Cauliflower Pizza Crust",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 481,
+      "protein_g_per_serving": 12,
+      "carbs_g_per_serving": 81,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "GF Double Chocolate Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 280,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 40,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Ford",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Pasta Carbonara",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 521,
+      "protein_g_per_serving": 19,
+      "carbs_g_per_serving": 30,
+      "fat_g_per_serving": 39
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 0,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 113,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Texas Toast Garlic Bread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 226,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 14
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Roasted Eggplant and Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Sugar Cookie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Chocolate Chip Banana Bread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 204,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Oreo Brownie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 547,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 96,
+      "fat_g_per_serving": 15
+    },
+    {
+      "name": "6\" Flour Tortilla",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Popcorn Shrimp",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 201,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Cortes Cream",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 26,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Salad Mexican (Ensalada)",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 24,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Salsa Fuego",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 12,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 3,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Shredded Lettuce",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 4,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Diced Tomatoes",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 2,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Diced Onion",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 4,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Boom Boom Sauce",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 75,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Lemon Wedges",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 3,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Hamburger Bun",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Breaded Pork Tenderloin",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 176,
+      "protein_g_per_serving": 23,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Crinkle Cut Fries",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 162,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Watermelon Slices",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 18,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pineapple Chunks",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 107,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 30,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Grilled Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 340,
+      "protein_g_per_serving": 10,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 19
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Cream of Tomato Soup",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 109,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Kettle Potato Chips",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 152,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "2 Alarm 4 Bean Chili",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 141,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Allergen-Free Cornbread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Tossed Vegetable Salad",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 41,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Allergen-Free Ranch",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 65,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Fat Free California French Dressing",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 18,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fat Free Italian Dressing",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 8,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Banana Chocolate Chip Bread ALGF",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 138,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Vegan Malibu Burger",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegetarian Chicken Nugget",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 547,
+      "protein_g_per_serving": 32,
+      "carbs_g_per_serving": 57,
+      "fat_g_per_serving": 22
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Pasta Carbonara",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 521,
+      "protein_g_per_serving": 19,
+      "carbs_g_per_serving": 30,
+      "fat_g_per_serving": 39
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 0,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 113,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Texas Toast Garlic Bread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 226,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 14
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Roasted Eggplant and Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Sugar Cookie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Chocolate Chip Banana Bread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 204,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Oreo Brownie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 547,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 96,
+      "fat_g_per_serving": 15
+    },
+    {
+      "name": "6\" Flour Tortilla",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Popcorn Shrimp",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 201,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Cortes Cream",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 26,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Salad Mexican (Ensalada)",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 24,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Salsa Fuego",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 12,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 3,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Boom Boom Sauce",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 75,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Shredded Lettuce",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 4,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Diced Tomatoes",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 2,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Diced Onion",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 4,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Lemon Wedges",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 3,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Watermelon Slices",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 18,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pineapple Chunks",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 107,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 30,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Grilled Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 340,
+      "protein_g_per_serving": 10,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 19
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Cream of Tomato Soup",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 109,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Kettle Potato Chips",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 152,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "2 Alarm 4 Bean Chili",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 141,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Allergen-Free Cornbread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Tossed Vegetable Salad",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 41,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Allergen-Free Ranch",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 65,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Fat Free California French Dressing",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 18,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fat Free Italian Dressing",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 8,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Banana Chocolate Chip Bread ALGF",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 138,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Vegan Malibu Burger",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegetarian Chicken Nugget",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 547,
+      "protein_g_per_serving": 32,
+      "carbs_g_per_serving": 57,
+      "fat_g_per_serving": 22
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Pasta Carbonara",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 521,
+      "protein_g_per_serving": 19,
+      "carbs_g_per_serving": 30,
+      "fat_g_per_serving": 39
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 0,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 113,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Texas Toast Garlic Bread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 226,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 14
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Roasted Eggplant and Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Sugar Cookie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Chocolate Chip Banana Bread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 204,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Oreo Brownie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 547,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 96,
+      "fat_g_per_serving": 15
+    },
+    {
+      "name": "6\" Flour Tortilla",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Popcorn Shrimp",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 201,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Cortes Cream",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 26,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Salad Mexican (Ensalada)",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 24,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Salsa Fuego",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 12,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 3,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Boom Boom Sauce",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 75,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Shredded Lettuce",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 4,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Diced Tomatoes",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 2,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Diced Onion",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 4,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Lemon Wedges",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 3,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Spicy Breaded Chicken Breast",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 261,
+      "protein_g_per_serving": 17,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 16
+    },
+    {
+      "name": "Hamburger Bun",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Crinkle Cut Fries",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 162,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Watermelon Slices",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 18,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pineapple Chunks",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 107,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 30,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Grilled Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 340,
+      "protein_g_per_serving": 10,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 19
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Cream of Tomato Soup",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 109,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Kettle Potato Chips",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 152,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "California Vegetables",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 50,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "2 Alarm 4 Bean Chili",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 141,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Allergen-Free Cornbread",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Tossed Vegetable Salad",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 41,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 9,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Allergen-Free Ranch",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 65,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Fat Free Italian Dressing",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 8,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fat Free California French Dressing",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 18,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Banana Chocolate Chip Bread ALGF",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 138,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Vegan Malibu Burger",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegetarian Chicken Nugget",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 547,
+      "protein_g_per_serving": 32,
+      "carbs_g_per_serving": 57,
+      "fat_g_per_serving": 22
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Hillenbrand",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Scrambled Eggs",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 155,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Smokey Links",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 181,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 5,
+      "fat_g_per_serving": 16
+    },
+    {
+      "name": "Cheddar Jalapeno Potato Nugget",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 243,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "English Muffin",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Sliced Smoked Ham",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 41,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Fried Egg Patty with Black Pepper",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "American Cheese",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 70,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Oatmeal",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 80,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Hard Cooked Eggs",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 62,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Chamoy Sauce",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 0,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mandarin Oranges",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Chocolate Chip Coffee Cake",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 299,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 53,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Margarine Cup",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 60,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Udi's Plain GF Bagel",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 38,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Crispy Pork Belly (Chicharron)",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 587,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 60
+    },
+    {
+      "name": "Rachel's Refried Beans",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 78,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "5\" Flour Tortilla",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 83,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "6\" Yellow Corn Tortilla",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 58,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Garlic Herb Chicken Strip",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 75,
+      "protein_g_per_serving": 12,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Chicken Piccata",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 299,
+      "protein_g_per_serving": 26,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 19
+    },
+    {
+      "name": "Roasted Grape Tomatoes",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 83,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Broccoli Florets",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 19,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 3,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 659,
+      "protein_g_per_serving": 32,
+      "carbs_g_per_serving": 73,
+      "fat_g_per_serving": 30
+    },
+    {
+      "name": "Chamoy Sauce",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 0,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mandarin Oranges",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "BBQ Tofu and Peppers",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 320,
+      "protein_g_per_serving": 15,
+      "carbs_g_per_serving": 51,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Broccoli Florets",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 19,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 3,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Oreo Cake",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 246,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 34,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Coconut Macaroons",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 169,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Fried Cheese Ravioli",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 488,
+      "protein_g_per_serving": 14,
+      "carbs_g_per_serving": 61,
+      "fat_g_per_serving": 20
+    },
+    {
+      "name": "Marinara Sauce",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 25,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Broccoli Florets",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 19,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 3,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegan Mozzarella Cheese",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 80,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Double Chocolate Muffin",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 280,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 40,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Crispy Pork Belly (Chicharron)",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 587,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 60
+    },
+    {
+      "name": "Rachel's Refried Beans",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 78,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "6\" Yellow Corn Tortilla",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 58,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "5\" Flour Tortilla",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 83,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Spinach Lasagna",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 319,
+      "protein_g_per_serving": 14,
+      "carbs_g_per_serving": 20,
+      "fat_g_per_serving": 20
+    },
+    {
+      "name": "Chicken Parmigiana",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 237,
+      "protein_g_per_serving": 16,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Rotini",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 215,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 43,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Marinara Sauce",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 25,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 4,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "GF Alfredo Sauce",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 435,
+      "protein_g_per_serving": 9,
+      "carbs_g_per_serving": 12,
+      "fat_g_per_serving": 39
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 113,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 11
+    },
+    {
+      "name": "Peas",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 62,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 659,
+      "protein_g_per_serving": 32,
+      "carbs_g_per_serving": 73,
+      "fat_g_per_serving": 30
+    },
+    {
+      "name": "Chamoy Sauce",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 0,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mandarin Oranges",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 100,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 24,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "BBQ Tofu and Peppers",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 320,
+      "protein_g_per_serving": 15,
+      "carbs_g_per_serving": 51,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Peas",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 62,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 11,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Oreo Cake",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 246,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 34,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Coconut Macaroons",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 169,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Chocolate Candy Piece Cookie",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 121,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Vegetarian Cheesy Calabacita Bake",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 147,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "Long Grain Rice",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 122,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 27,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegan Mozzarella Cheese",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 80,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Double Chocolate Muffin",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 280,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 40,
+      "fat_g_per_serving": 12
+    },
+    {
+      "name": "GF Blueberry Muffin",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 270,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 39,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Wiley",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Chicken Flautas",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 170,
+      "protein_g_per_serving": 8,
+      "carbs_g_per_serving": 20,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Spanish Rice",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 159,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Cortes Cream",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 26,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Fresh Pico De Gallo",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 12,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 3,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Tri Color Tortilla Chips",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 283,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 61,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Queso Blanco Cheese Sauce w Salsa Verde",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 218,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 17
+    },
+    {
+      "name": "Zesty Black Beans",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 151,
+      "protein_g_per_serving": 6,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Spicy Halal Lamb Curry",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 161,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Yellow Long Grain Rice",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 133,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Hamburger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 202,
+      "protein_g_per_serving": 14,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 16
+    },
+    {
+      "name": "Flame Grilled Chicken Burger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 191,
+      "protein_g_per_serving": 17,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Bacon",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Ken's Cannonball BBQ Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mango Habanero Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Hamburger Bun",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Ranch Potato Wedges",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Indian Butter Tofu",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 166,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Basmati Rice",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fresh Spinach",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Tandoori Naan",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 356,
+      "protein_g_per_serving": 12,
+      "carbs_g_per_serving": 59,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Chicken Pasta Bake",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 169,
+      "protein_g_per_serving": 9,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Primavera Fregola Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 73,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Fresh Spinach",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Berry Mix",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 65,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Strawberry Gelatin",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Lemon Herb Garbanzo Bean Salad",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 109,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 16,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Baked Potato Salad",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 20
+    },
+    {
+      "name": "Yellow Cake with Wellesley Frosting",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 213,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 37,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Edible Sugar Cookie Dough",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 170,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Spicy Halal Lamb Curry",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 161,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Yellow Long Grain Rice",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 133,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Flame Grilled Chicken Burger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 191,
+      "protein_g_per_serving": 17,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Ken's Cannonball BBQ Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mango Habanero Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Bacon",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Ranch Potato Wedges",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Hamburger Bun",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Chicken Pasta Bake",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 169,
+      "protein_g_per_serving": 9,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Primavera Fregola Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 73,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Fresh Spinach",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Berry Mix",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 65,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Strawberry Gelatin",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Lemon Herb Garbanzo Bean Salad",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 109,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 16,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Baked Potato Salad",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 20
+    },
+    {
+      "name": "Yellow Cake with Wellesley Frosting",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 213,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 37,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Edible Sugar Cookie Dough",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 170,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Pork Pernil",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 296,
+      "protein_g_per_serving": 27,
+      "carbs_g_per_serving": 2,
+      "fat_g_per_serving": 19
+    },
+    {
+      "name": "Pickled Red Onion",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 4,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Battered Dill Pickles",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 800,
+      "protein_g_per_serving": 17,
+      "carbs_g_per_serving": 126,
+      "fat_g_per_serving": 26
+    },
+    {
+      "name": "Vinegar Coleslaw",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 75,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Kings Hawaiian Bread Roll",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 2
+    },
+    {
+      "name": "Spicy Halal Lamb Curry",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 161,
+      "protein_g_per_serving": 11,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Yellow Long Grain Rice",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 133,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 32,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Hamburger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 202,
+      "protein_g_per_serving": 14,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 16
+    },
+    {
+      "name": "Flame Grilled Chicken Burger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 191,
+      "protein_g_per_serving": 17,
+      "carbs_g_per_serving": 1,
+      "fat_g_per_serving": 13
+    },
+    {
+      "name": "Ken's Cannonball BBQ Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 32,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 8,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Mango Habanero Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 0,
+      "carbs_g_per_serving": 10,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Bacon",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 47,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 0,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Hamburger Bun",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 28,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Ranch Potato Wedges",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 120,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 18,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "Indian Butter Tofu",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 166,
+      "protein_g_per_serving": 7,
+      "carbs_g_per_serving": 26,
+      "fat_g_per_serving": 5
+    },
+    {
+      "name": "Basmati Rice",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 23,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Fresh Spinach",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Tandoori Naan",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 356,
+      "protein_g_per_serving": 12,
+      "carbs_g_per_serving": 59,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "Chicken Pasta Bake",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 169,
+      "protein_g_per_serving": 9,
+      "carbs_g_per_serving": 15,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Primavera Fregola Sauce",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 73,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 13,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Fresh Spinach",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 42,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 7,
+      "fat_g_per_serving": 1
+    },
+    {
+      "name": "Berry Mix",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 65,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Strawberry Gelatin",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 104,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 0
+    },
+    {
+      "name": "Lemon Herb Garbanzo Bean Salad",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 109,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 16,
+      "fat_g_per_serving": 3
+    },
+    {
+      "name": "Baked Potato Salad",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 250,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 14,
+      "fat_g_per_serving": 20
+    },
+    {
+      "name": "Yellow Cake with Wellesley Frosting",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 213,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 37,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Edible Sugar Cookie Dough",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 170,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 25,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 132,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 17,
+      "fat_g_per_serving": 6
+    },
+    {
+      "name": "Homefree Chocolate Chip Cookie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 140,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 19,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Homefree Chocolate Chip Brownie",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 235,
+      "protein_g_per_serving": 3,
+      "carbs_g_per_serving": 36,
+      "fat_g_per_serving": 9
+    },
+    {
+      "name": "GF White Bread",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 130,
+      "protein_g_per_serving": 2,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 4
+    },
+    {
+      "name": "GF Hamburger Bun",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 240,
+      "protein_g_per_serving": 5,
+      "carbs_g_per_serving": 44,
+      "fat_g_per_serving": 7
+    },
+    {
+      "name": "Malibu Burger",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 160,
+      "protein_g_per_serving": 4,
+      "carbs_g_per_serving": 21,
+      "fat_g_per_serving": 8
+    },
+    {
+      "name": "Vegan Shredded Mozzarella Cheese",
+      "dining_hall": "Windsor",
+      "serving_size_value": 1.0,
+      "serving_size_unit": "serving",
+      "calories_per_serving": 90,
+      "protein_g_per_serving": 1,
+      "carbs_g_per_serving": 6,
+      "fat_g_per_serving": 6
+    }
+  ]
+}
