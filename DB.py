@@ -108,7 +108,16 @@ def verify_login(username, password):
     return False
 
 def add_food(name, serving_size_value, serving_size_unit, calories_per_serving, protein_g_per_serving, carbs_g_per_serving, fat_g_per_serving):
-    """Add a new food item to the master foods table (per serving)"""
+    """Add a new food item to the master foods table (per serving). Returns food_id if successful, None if duplicate."""
+    # Check if food already exists
+    cursor.execute('SELECT id FROM foods WHERE name = ?', (name,))
+    existing = cursor.fetchone()
+    
+    if existing:
+        # Food already exists, return its ID
+        return existing[0]
+    
+    # Food doesn't exist, insert it
     cursor.execute('''
         INSERT INTO foods (name, serving_size_value, serving_size_unit, calories_per_serving, protein_g_per_serving, carbs_g_per_serving, fat_g_per_serving)
         VALUES (?, ?, ?, ?, ?, ?, ?)
@@ -141,6 +150,48 @@ def add_meal_entry(user_id, food_name, quantity_servings, meal_type='snack', sou
     conn.commit()
     return cursor.lastrowid
 
+def get_user_daily_meals(user_id, date=None):
+    """Get all individual meal entries for a user on a specific date with nutrition data"""
+    if date is None:
+        date = datetime.now().date()
+    
+    cursor.execute('''
+        SELECT 
+            me.id,
+            me.food_id,
+            f.name as food_name,
+            me.quantity_servings,
+            me.meal_type,
+            me.source,
+            me.entry_date,
+            (me.quantity_servings * f.calories_per_serving) as calories,
+            (me.quantity_servings * f.protein_g_per_serving) as protein_g,
+            (me.quantity_servings * f.carbs_g_per_serving) as carbs_g,
+            (me.quantity_servings * f.fat_g_per_serving) as fat_g
+        FROM meal_entries me
+        JOIN foods f ON me.food_id = f.id
+        WHERE me.user_id = ? AND me.entry_date = ?
+        ORDER BY me.created_at DESC
+    ''', (user_id, date))
+    
+    results = cursor.fetchall()
+    meals = []
+    for row in results:
+        meals.append({
+            'id': row[0],
+            'food_id': row[1],
+            'food_name': row[2],
+            'quantity_servings': row[3],
+            'meal_type': row[4],
+            'source': row[5],
+            'entry_date': row[6],
+            'calories': round(row[7] or 0),
+            'protein_g': round(row[8] or 0),
+            'carbs_g': round(row[9] or 0),
+            'fat_g': round(row[10] or 0)
+        })
+    return meals
+
 def get_user_daily_nutrition(user_id, date=None):
     """Get total nutrition for a user on a specific date"""
     if date is None:
@@ -160,12 +211,49 @@ def get_user_daily_nutrition(user_id, date=None):
     result = cursor.fetchone()
     if result and result[0] is not None:
         return {
-            'calories': result[0],
-            'protein_g': result[1],
-            'carbs_g': result[2],
-            'fat_g': result[3]
+            'calories': round(result[0] or 0),
+            'protein_g': round(result[1] or 0),
+            'carbs_g': round(result[2] or 0),
+            'fat_g': round(result[3] or 0)
         }
     return {'calories': 0, 'protein_g': 0, 'carbs_g': 0, 'fat_g': 0}
+
+def update_meal_entry(meal_id, meal_type=None, quantity_servings=None):
+    """Update a meal entry's meal_type and/or quantity_servings"""
+    updates = []
+    params = []
+    
+    if meal_type is not None:
+        if meal_type not in ('breakfast', 'lunch', 'dinner', 'snack'):
+            raise ValueError(f"Invalid meal_type: {meal_type}")
+        updates.append('meal_type = ?')
+        params.append(meal_type)
+    
+    if quantity_servings is not None:
+        if quantity_servings <= 0:
+            raise ValueError("quantity_servings must be positive")
+        updates.append('quantity_servings = ?')
+        params.append(quantity_servings)
+    
+    if not updates:
+        return False  # Nothing to update
+    
+    params.append(meal_id)
+    
+    cursor.execute(f'''
+        UPDATE meal_entries 
+        SET {', '.join(updates)}
+        WHERE id = ?
+    ''', params)
+    
+    conn.commit()
+    return cursor.rowcount > 0
+
+def delete_meal_entry(meal_id):
+    """Delete a meal entry by ID"""
+    cursor.execute('DELETE FROM meal_entries WHERE id = ?', (meal_id,))
+    conn.commit()
+    return cursor.rowcount > 0
 
 def close_connection():
     """Close database connection"""

@@ -37,8 +37,10 @@ def run_react():
             print("📦 Installing React dependencies...")
             subprocess.run(["npm", "install"], cwd=frontend_dir, check=True)
         
-        # Start React development server
-        subprocess.run(["npm", "start"], cwd=frontend_dir, check=True)
+        # Start React development server (disable auto-open)
+        env = os.environ.copy()
+        env['BROWSER'] = 'none'
+        subprocess.run(["npm", "start"], cwd=frontend_dir, check=True, env=env)
     except subprocess.CalledProcessError as e:
         print(f"❌ React frontend failed: {e}")
     except KeyboardInterrupt:
@@ -80,11 +82,14 @@ def main():
     # Wait a moment for Flask to start
     time.sleep(3)
     
-    # Open browser after a delay
+    # Open browser after React starts (only once)
+    browser_opened = {'value': False}
     def open_browser():
         time.sleep(5)  # Wait for React to start
-        print("🌐 Opening browser...")
-        webbrowser.open("http://localhost:3000")
+        if not browser_opened['value']:
+            print("🌐 Opening browser...")
+            webbrowser.open("http://localhost:3000")
+            browser_opened['value'] = True
     
     browser_thread = threading.Thread(target=open_browser, daemon=True)
     browser_thread.start()

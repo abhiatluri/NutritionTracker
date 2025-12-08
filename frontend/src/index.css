@@ -206,6 +206,22 @@ code {
   padding: 16px;
   margin-bottom: 12px;
   border-left: 4px solid #667eea;
+  transition: all 0.2s ease;
+}
+
+.meal-item:hover {
+  background: #e9ecef;
+  transform: translateX(4px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.meal-item[draggable="true"] {
+  cursor: move;
+  user-select: none;
+}
+
+.meal-item[draggable="true"]:active {
+  opacity: 0.6;
 }
 
 .meal-item h4 {

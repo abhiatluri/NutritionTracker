@@ -32,7 +32,15 @@ def extract_text_from_receipt(image_path):
     """
 
     try:
+        if not os.path.exists(image_path):
+            print(f"Image file not found: {image_path}")
+            return None
+        
         img = cv2.imread(image_path)
+        if img is None or img.size == 0:
+            print(f"Failed to load image from: {image_path}")
+            return None
+        
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         gray = cv2.medianBlur(gray, 3)
         
@@ -224,12 +232,24 @@ def scrape_purdue_daily_menu(date=None):
         data = requests.get(menu_url).json()
 
         for meal in data.get("Meals", []):
+            meal_name = meal.get("Name", "").lower()
+            # Map meal names to our meal types
+            meal_type = "snack"  # default
+            if "breakfast" in meal_name:
+                meal_type = "breakfast"
+            elif "lunch" in meal_name:
+                meal_type = "lunch"
+            elif "dinner" in meal_name:
+                meal_type = "dinner"
+            
             for station in meal.get("Stations", []):
                 for item in station.get("Items", []):
                     name = item["Name"]
+                    nutrition = get_purdue_menu_nutrition(name) or {}
                     all_items.append({
                         "name": name,
-                        **(get_purdue_menu_nutrition(name) or {})
+                        "meal_type": meal_type,
+                        **nutrition
                     })
     return all_items
 

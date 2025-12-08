@@ -126,7 +126,7 @@ class PurdueAPIScraper:
                     result = future.result()
                     results.append(result)
                 except Exception as e:
-                    print(f"❌ {hall} failed: {e}")
+                    print(f"{hall} failed: {e}")
                     results.append({
                         'dining_hall': hall,
                         'food_items': {},
@@ -137,8 +137,8 @@ class PurdueAPIScraper:
         end_time = time.time()
         total_time = end_time - start_time
         
-        print(f"\n⏱️  Total scraping time: {total_time:.2f} seconds")
-        print(f"📊 Average time per dining hall: {total_time/len(self.dining_halls):.2f} seconds")
+        print(f"\n  Total scraping time: {total_time:.2f} seconds")
+        print(f" Average time per dining hall: {total_time/len(self.dining_halls):.2f} seconds")
         
         return results
     
@@ -190,14 +190,14 @@ def main():
     data = scraper.save_results(results, nutrition_dict)
     
     # Print summary
-    print("\n📋 NUTRITION DICTIONARY SUMMARY:")
+    print("\n NUTRITION DICTIONARY SUMMARY:")
     print("=" * 50)
     
     for hall_name, foods in nutrition_dict.items():
-        print(f"\n🏢 {hall_name}:")
+        print(f"\n {hall_name}:")
         for food_name, nutrition in foods.items():
             calories, carbs, protein, fat = nutrition
-            print(f"  🍽️  {food_name}: {calories} cal, {carbs}g carbs, {protein}g protein, {fat}g fat")
+            print(f"{food_name}: {calories} cal, {carbs}g carbs, {protein}g protein, {fat}g fat")
     
     print(f"\n🎯 Total: {data['total_food_items']} food items from {data['total_dining_halls']} dining halls")
 

@@ -7,6 +7,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import DB
 import json
+import os
 from datetime import datetime, date
 
 # Import function templates (will be replaced with actual implementations)
@@ -136,12 +137,16 @@ def get_daily_meals(user_id, date_str):
         # Parse date
         target_date = datetime.strptime(date_str, '%Y-%m-%d').date()
         
-        # Get daily nutrition
+        # Get individual meal entries
+        meals = DB.get_user_daily_meals(user_id, target_date)
+        
+        # Get total nutrition
         nutrition = DB.get_user_daily_nutrition(user_id, target_date)
         
         return jsonify({
             'success': True,
             'date': date_str,
+            'meals': meals,
             'nutrition': nutrition
         }), 200
         
@@ -150,11 +155,58 @@ def get_daily_meals(user_id, date_str):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/meals/<int:meal_id>', methods=['PATCH'])
+def update_meal(meal_id):
+    """Update a meal entry (meal_type and/or quantity_servings)"""
+    try:
+        data = request.get_json()
+        
+        if not data:
+            return jsonify({'error': 'No data provided'}), 400
+        
+        meal_type = data.get('meal_type')
+        quantity_servings = data.get('quantity_servings')
+        
+        if meal_type is None and quantity_servings is None:
+            return jsonify({'error': 'Must provide meal_type or quantity_servings to update'}), 400
+        
+        success = DB.update_meal_entry(meal_id, meal_type=meal_type, quantity_servings=quantity_servings)
+        
+        if success:
+            return jsonify({
+                'success': True,
+                'message': 'Meal updated successfully'
+            }), 200
+        else:
+            return jsonify({'error': 'Meal not found or no changes made'}), 404
+            
+    except ValueError as e:
+        return jsonify({'error': str(e)}), 400
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/meals/<int:meal_id>', methods=['DELETE'])
+def delete_meal(meal_id):
+    """Delete a meal entry"""
+    try:
+        success = DB.delete_meal_entry(meal_id)
+        
+        if success:
+            return jsonify({
+                'success': True,
+                'message': 'Meal deleted successfully'
+            }), 200
+        else:
+            return jsonify({'error': 'Meal not found'}), 404
+            
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 # ==================== FOOD MANAGEMENT ENDPOINTS ====================
 
 @app.route('/api/foods', methods=['POST'])
 def add_food():
-    """Add a new food item to the database"""
+    """Add a new food item to the database (or return existing food ID if duplicate)"""
     try:
         data = request.get_json()
         
@@ -165,7 +217,7 @@ def add_food():
         if not all(field in data for field in required_fields):
             return jsonify({'error': 'All nutrition fields required'}), 400
         
-        # Add food
+        # Add food (will return existing ID if food already exists)
         food_id = DB.add_food(
             name=data['name'],
             serving_size_value=data['serving_size_value'],
@@ -176,11 +228,14 @@ def add_food():
             fat_g_per_serving=data['fat_g_per_serving']
         )
         
-        return jsonify({
-            'success': True,
-            'food_id': food_id,
-            'message': 'Food added successfully'
-        }), 201
+        if food_id:
+            return jsonify({
+                'success': True,
+                'food_id': food_id,
+                'message': 'Food added successfully'
+            }), 201
+        else:
+            return jsonify({'error': 'Failed to add food'}), 500
         
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -258,6 +313,110 @@ def get_purdue_nutrition(food_name):
         else:
             return jsonify({'error': 'Food not found in Purdue menu'}), 404
             
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/purdue/dining-halls', methods=['GET'])
+def get_dining_halls():
+    """Get list of all available dining halls"""
+    try:
+        json_path = 'purdue_nutrition_data.json'
+        if not os.path.exists(json_path):
+            return jsonify({'error': 'Nutrition data file not found'}), 404
+        
+        with open(json_path, 'r') as f:
+            data = json.load(f)
+        
+        dining_halls = list(data.get('nutrition_dictionary', {}).keys())
+        
+        return jsonify({
+            'success': True,
+            'dining_halls': dining_halls
+        }), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/purdue/dining-hall/<hall_name>/foods', methods=['GET'])
+def get_dining_hall_foods(hall_name):
+    """Get all foods available at a specific dining hall with meal type information"""
+    try:
+        # Load nutrition data from static JSON (fast)
+        json_path = 'purdue_nutrition_data.json'
+        if not os.path.exists(json_path):
+            return jsonify({'error': 'Nutrition data file not found'}), 404
+        
+        with open(json_path, 'r') as f:
+            static_data = json.load(f)
+        
+        nutrition_dict = static_data.get('nutrition_dictionary', {})
+        if hall_name not in nutrition_dict:
+            return jsonify({'error': f'Dining hall "{hall_name}" not found'}), 404
+        
+        # Build food list with nutrition from static JSON
+        foods_dict = {}
+        for food_name, nutrition_array in nutrition_dict[hall_name].items():
+            # nutrition_array format: [calories, carbs, protein, fat]
+            foods_dict[food_name] = {
+                'name': food_name,
+                'calories_per_serving': int(round(nutrition_array[0] if len(nutrition_array) > 0 else 0)),
+                'carbs_g_per_serving': int(round(nutrition_array[1] if len(nutrition_array) > 1 else 0)),
+                'protein_g_per_serving': int(round(nutrition_array[2] if len(nutrition_array) > 2 else 0)),
+                'fat_g_per_serving': int(round(nutrition_array[3] if len(nutrition_array) > 3 else 0)),
+                'serving_size_value': 1.0,
+                'serving_size_unit': 'serving',
+                'meal_type': 'snack'  # Default, will be updated if API call succeeds
+            }
+        
+        # Try to get meal types from live API (one call, fast)
+        try:
+            import requests
+            from datetime import date
+            today = date.today()
+            # Purdue API expects MM-DD-YYYY format
+            date_str = today.strftime("%m-%d-%Y")
+            base = "https://api.hfs.purdue.edu/menus/v2/locations"
+            menu_url = f"{base}/{hall_name}/{date_str}"
+            response = requests.get(menu_url, timeout=5)
+            
+            if response.status_code == 200:
+                api_data = response.json()
+                # Create a mapping of food names to meal types
+                meal_type_map = {}
+                
+                for meal in api_data.get("Meals", []):
+                    meal_name = meal.get("Name", "").lower()
+                    # Map meal names to our meal types
+                    meal_type = "snack"  # default
+                    if "breakfast" in meal_name:
+                        meal_type = "breakfast"
+                    elif "lunch" in meal_name:
+                        meal_type = "lunch"
+                    elif "dinner" in meal_name:
+                        meal_type = "dinner"
+                    
+                    for station in meal.get("Stations", []):
+                        for item in station.get("Items", []):
+                            food_name = item["Name"]
+                            meal_type_map[food_name] = meal_type
+                
+                # Update meal types for foods that were found in API
+                for food_name, meal_type in meal_type_map.items():
+                    if food_name in foods_dict:
+                        foods_dict[food_name]['meal_type'] = meal_type
+        except:
+            # If API call fails, just use default 'snack' - not a big deal
+            pass
+        
+        # Convert dict to list
+        foods = list(foods_dict.values())
+        
+        return jsonify({
+            'success': True,
+            'dining_hall': hall_name,
+            'foods': foods
+        }), 200
+        
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
@@ -374,6 +533,8 @@ if __name__ == '__main__':
     print("  POST /api/receipt/process - Process receipt image")
     print("  GET  /api/purdue/menu/<date> - Get Purdue menu")
     print("  GET  /api/purdue/nutrition/<food_name> - Get Purdue item nutrition")
+    print("  GET  /api/purdue/dining-halls - Get list of dining halls")
+    print("  GET  /api/purdue/dining-hall/<hall_name>/foods - Get foods for a dining hall")
     print("  POST /api/calculations/macros - Calculate macro percentages")
     print("  POST /api/calculations/tdee - Calculate TDEE")
     print("  POST /api/goals/<user_id> - Set user goals")
