@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard';
 import MealLog from './components/MealLog';
 import Goals from './components/Goals';
 import Navbar from './components/Navbar';
+import Chatbot from './components/Chatbot';
 
 // Configure axios base URL
 axios.defaults.baseURL = 'http://localhost:5001/api';
@@ -82,6 +83,13 @@ function App() {
             path="/goals" 
             element={
               user ? <Goals user={user} /> : 
+              <Navigate to="/login" />
+            } 
+          />
+          <Route 
+            path="/chat" 
+            element={
+              user ? <Chatbot user={user} /> : 
               <Navigate to="/login" />
             } 
           />

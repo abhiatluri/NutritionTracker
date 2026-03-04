@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { User, LogOut, Home, Utensils, Target } from 'lucide-react';
+import { User, LogOut, Home, Utensils, Target, MessageCircle } from 'lucide-react';
 
 const Navbar = ({ user, onLogout }) => {
   const location = useLocation();
@@ -81,6 +81,24 @@ const Navbar = ({ user, onLogout }) => {
               >
                 <Target size={18} />
                 Goals
+              </Link>
+
+              <Link 
+                to="/chat" 
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '8px 16px',
+                  borderRadius: '8px',
+                  textDecoration: 'none',
+                  color: isActive('/chat') ? '#667eea' : '#6c757d',
+                  background: isActive('/chat') ? '#f8f9ff' : 'transparent',
+                  fontWeight: isActive('/chat') ? '600' : '400'
+                }}
+              >
+                <MessageCircle size={18} />
+                Chat
               </Link>
             </div>
           </div>

@@ -9,6 +9,7 @@ import DB
 import json
 import os
 from datetime import datetime, date
+import chatbot
 
 # Import function templates (will be replaced with actual implementations)
 try:
@@ -510,6 +511,37 @@ def health_check():
         'database': 'connected'
     }), 200
 
+
+# ==================== CHATBOT ENDPOINT ====================
+
+@app.route('/api/chatbot', methods=['POST'])
+def chat_with_bot():
+    """
+    Conversational nutrition assistant endpoint.
+
+    Delegates to chatbot.answer_question, which can be implemented using
+    a RAG pipeline over the user's meal history.
+    """
+    try:
+        data = request.get_json() or {}
+        user_id = data.get('user_id')
+        question = (data.get('question') or '').strip()
+
+        if not user_id or not question:
+            return jsonify({'error': 'user_id and question required'}), 400
+
+        result = chatbot.answer_question(user_id=user_id, question=question) or {}
+        answer = result.get('answer', '')
+        sources = result.get('sources', [])
+
+        return jsonify({
+            'success': True,
+            'answer': answer,
+            'sources': sources
+        }), 200
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)}), 500
+
 # ==================== ERROR HANDLERS ====================
 
 @app.errorhandler(404)
@@ -538,6 +570,7 @@ if __name__ == '__main__':
     print("  POST /api/calculations/macros - Calculate macro percentages")
     print("  POST /api/calculations/tdee - Calculate TDEE")
     print("  POST /api/goals/<user_id> - Set user goals")
+    print("  POST /api/chatbot - Chat with nutrition assistant")
     print("  GET  /api/health - Health check")
     
     app.run(debug=True, host='0.0.0.0', port=5001)

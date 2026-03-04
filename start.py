@@ -18,17 +18,17 @@ def run_flask():
     try:
         subprocess.run([sys.executable, "app.py"], check=True)
     except subprocess.CalledProcessError as e:
-        print(f"❌ Flask backend failed: {e}")
+        print(f"Flask backend failed: {e}")
     except KeyboardInterrupt:
-        print("🛑 Flask backend stopped")
+        print("Flask backend stopped")
 
 def run_react():
     """Run React frontend"""
-    print("⚛️  Starting React frontend...")
+    print("Starting React frontend...")
     frontend_dir = Path("frontend")
     
     if not frontend_dir.exists():
-        print("❌ Frontend directory not found!")
+        print("Frontend directory not found!")
         return
     
     try:
@@ -42,17 +42,17 @@ def run_react():
         env['BROWSER'] = 'none'
         subprocess.run(["npm", "start"], cwd=frontend_dir, check=True, env=env)
     except subprocess.CalledProcessError as e:
-        print(f"❌ React frontend failed: {e}")
+        print(f"React frontend failed: {e}")
     except KeyboardInterrupt:
-        print("🛑 React frontend stopped")
+        print("React frontend stopped")
 
 def main():
-    print("🍎 Nutrition Tracker Startup")
+    print("Nutrition Tracker Startup")
     print("=" * 40)
     
     # Check if we're in the right directory
     if not Path("app.py").exists():
-        print("❌ Please run this script from the NutritionProject directory")
+        print("Please run this script from the NutritionProject directory")
         sys.exit(1)
     
     # Check if Node.js is installed
@@ -60,8 +60,8 @@ def main():
         subprocess.run(["node", "--version"], check=True, capture_output=True)
         subprocess.run(["npm", "--version"], check=True, capture_output=True)
     except (subprocess.CalledProcessError, FileNotFoundError):
-        print("❌ Node.js and npm are required but not installed")
-        print("   Please install Node.js from https://nodejs.org/")
+        print("Node.js and npm are required but not installed")
+        print("Please install Node.js from https://nodejs.org/")
         sys.exit(1)
     
     # Check if Flask is installed
@@ -98,8 +98,8 @@ def main():
     try:
         run_react()
     except KeyboardInterrupt:
-        print("\n🛑 Shutting down...")
-        print("✅ Nutrition Tracker stopped")
+        print("\nShutting down...")
+        print("Nutrition Tracker stopped")
 
 if __name__ == "__main__":
     main()
