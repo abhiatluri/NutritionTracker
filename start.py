@@ -4,6 +4,9 @@ Startup script for Nutrition Tracker
 Runs both Flask backend and React frontend
 """
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import subprocess
 import sys
 import os
@@ -14,7 +17,7 @@ from pathlib import Path
 
 def run_flask():
     """Run Flask backend"""
-    print("🚀 Starting Flask backend...")
+    print("Starting Flask backend...")
     try:
         subprocess.run([sys.executable, "app.py"], check=True)
     except subprocess.CalledProcessError as e:
@@ -34,7 +37,7 @@ def run_react():
     try:
         # Check if node_modules exists, if not install dependencies
         if not (frontend_dir / "node_modules").exists():
-            print("📦 Installing React dependencies...")
+            print("Installing React dependencies...")
             subprocess.run(["npm", "install"], cwd=frontend_dir, check=True)
         
         # Start React development server (disable auto-open)
@@ -69,10 +72,10 @@ def main():
         import flask
         import flask_cors
     except ImportError:
-        print("📦 Installing Python dependencies...")
+        print("Installing Python dependencies...")
         subprocess.run([sys.executable, "-m", "pip", "install", "Flask", "Flask-CORS"], check=True)
     
-    print("✅ All dependencies ready!")
+    print("All dependencies ready!")
     print()
     
     # Start Flask in a separate thread
@@ -87,7 +90,7 @@ def main():
     def open_browser():
         time.sleep(5)  # Wait for React to start
         if not browser_opened['value']:
-            print("🌐 Opening browser...")
+            print("Opening browser...")
             webbrowser.open("http://localhost:3000")
             browser_opened['value'] = True
     

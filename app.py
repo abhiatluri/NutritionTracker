@@ -3,6 +3,9 @@ Flask API for Nutrition Tracker
 Integrates with DB.py and function templates from Tanish and Karthik
 """
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import DB
@@ -119,7 +122,20 @@ def add_meal():
             source=data.get('source', 'manual'),
             entry_date=data.get('entry_date')
         )
-        
+
+        # Best-effort: index this meal in the vector store for future chatbot use
+        try:
+            entry_date = data.get('entry_date')
+            if entry_date is None:
+                entry_date = datetime.now().date()
+            meals_for_day = DB.get_user_daily_meals(data['user_id'], entry_date)
+            new_meal = next((m for m in meals_for_day if m['id'] == meal_id), None)
+            if new_meal:
+                chatbot.index_meal(new_meal)
+        except Exception:
+            # Indexing failures should not break core meal logging
+            pass
+
         return jsonify({
             'success': True, 
             'meal_id': meal_id,
@@ -174,6 +190,14 @@ def update_meal(meal_id):
         success = DB.update_meal_entry(meal_id, meal_type=meal_type, quantity_servings=quantity_servings)
         
         if success:
+            # Best-effort: update this meal in the vector store
+            try:
+                meal = DB.get_meal_by_id(meal_id)
+                if meal:
+                    chatbot.index_meal(meal)
+            except Exception:
+                pass
+
             return jsonify({
                 'success': True,
                 'message': 'Meal updated successfully'
@@ -190,9 +214,18 @@ def update_meal(meal_id):
 def delete_meal(meal_id):
     """Delete a meal entry"""
     try:
+        # Fetch meal before deletion so we can remove it from the vector store
+        meal = DB.get_meal_by_id(meal_id)
         success = DB.delete_meal_entry(meal_id)
         
         if success:
+            # Best-effort: remove this meal from the vector store
+            try:
+                if meal:
+                    chatbot.remove_meal_from_index(meal)
+            except Exception:
+                pass
+
             return jsonify({
                 'success': True,
                 'message': 'Meal deleted successfully'

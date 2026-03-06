@@ -192,6 +192,98 @@ def get_user_daily_meals(user_id, date=None):
         })
     return meals
 
+
+def get_user_meals(user_id, from_date=None, to_date=None):
+    """
+    Get all meal entries for a user, optionally within a date range.
+    Same shape as get_user_daily_meals: id, food_id, food_name, quantity_servings,
+    meal_type, source, entry_date, calories, protein_g, carbs_g, fat_g.
+    """
+    query = '''
+        SELECT
+            me.id,
+            me.food_id,
+            f.name AS food_name,
+            me.quantity_servings,
+            me.meal_type,
+            me.source,
+            me.entry_date,
+            (me.quantity_servings * f.calories_per_serving) AS calories,
+            (me.quantity_servings * f.protein_g_per_serving) AS protein_g,
+            (me.quantity_servings * f.carbs_g_per_serving) AS carbs_g,
+            (me.quantity_servings * f.fat_g_per_serving) AS fat_g
+        FROM meal_entries me
+        JOIN foods f ON me.food_id = f.id
+        WHERE me.user_id = ?
+    '''
+    params = [user_id]
+    if from_date is not None:
+        query += ' AND me.entry_date >= ?'
+        params.append(from_date)
+    if to_date is not None:
+        query += ' AND me.entry_date <= ?'
+        params.append(to_date)
+    query += ' ORDER BY me.entry_date DESC, me.created_at DESC'
+
+    cursor.execute(query, params)
+    results = cursor.fetchall()
+    meals = []
+    for row in results:
+        meals.append({
+            'id': row[0],
+            'food_id': row[1],
+            'food_name': row[2],
+            'quantity_servings': row[3],
+            'meal_type': row[4],
+            'source': row[5],
+            'entry_date': row[6],
+            'calories': round(row[7] or 0),
+            'protein_g': round(row[8] or 0),
+            'carbs_g': round(row[9] or 0),
+            'fat_g': round(row[10] or 0),
+        })
+    return meals
+
+
+def get_meal_by_id(meal_id):
+    """Get a single meal entry (with nutrition data) by its ID."""
+    cursor.execute('''
+        SELECT
+            me.id,
+            me.user_id,
+            me.food_id,
+            f.name AS food_name,
+            me.quantity_servings,
+            me.meal_type,
+            me.source,
+            me.entry_date,
+            (me.quantity_servings * f.calories_per_serving) AS calories,
+            (me.quantity_servings * f.protein_g_per_serving) AS protein_g,
+            (me.quantity_servings * f.carbs_g_per_serving) AS carbs_g,
+            (me.quantity_servings * f.fat_g_per_serving) AS fat_g
+        FROM meal_entries me
+        JOIN foods f ON me.food_id = f.id
+        WHERE me.id = ?
+    ''', (meal_id,))
+    row = cursor.fetchone()
+    if not row:
+        return None
+    return {
+        'id': row[0],
+        'user_id': row[1],
+        'food_id': row[2],
+        'food_name': row[3],
+        'quantity_servings': row[4],
+        'meal_type': row[5],
+        'source': row[6],
+        'entry_date': row[7],
+        'calories': round(row[8] or 0),
+        'protein_g': round(row[9] or 0),
+        'carbs_g': round(row[10] or 0),
+        'fat_g': round(row[11] or 0),
+    }
+
+
 def get_user_daily_nutrition(user_id, date=None):
     """Get total nutrition for a user on a specific date"""
     if date is None:
